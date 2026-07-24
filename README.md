@@ -9,5 +9,5 @@ This repository contains all my internship task submissions.
 - WebDev-L1-LandingPage
 - WebDev-L1-Portfolio
 - WebDev-L1-TemperatureConverter
-- (More tasks will be added here.)
-Thank you for visiting my repository!
+More projects will be added as I complete my internship tasks.
+⭐ Thank you for visiting my repository!
