@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kombai Coffee Roasters — Single-Origin, Roasted Weekly</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">Kombai</a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#origins">Origins</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#subscribe" class="nav__cta">Start Subscription</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero__inner">
+    <p class="eyebrow">Roasted every Tuesday, shipped every Wednesday</p>
+    <h1 class="hero__headline">Coffee, roasted<br>to its story.</h1>
+    <p class="hero__sub">We buy directly from three family farms — from the hills of Chikmagalur to
+      the highlands of Yirgacheffe — and roast each lot in small batches so the beans reach you
+      before the story fades.</p>
+    <div class="hero__actions">
+      <a href="#subscribe" class="btn btn--primary">Start your subscription</a>
+      <a href="#origins" class="btn btn--ghost">See where it's grown</a>
+    </div>
+  </div>
+
+  <div class="hero__curve" aria-hidden="true">
+    <svg viewBox="0 0 640 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 220 C 90 220, 130 60, 220 60 S 340 210, 430 150 S 560 30, 630 40"
+            stroke="#C17817" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="220" cy="60" r="4" fill="#F2E8DC"/>
+      <circle cx="430" cy="150" r="4" fill="#F2E8DC"/>
+      <circle cx="630" cy="40" r="4" fill="#F2E8DC"/>
+      <text x="205" y="42" class="curve-label">First crack</text>
+      <text x="400" y="176" class="curve-label">Development</text>
+      <text x="560" y="24" class="curve-label">Drop</text>
+    </svg>
+    <p class="hero__curve-caption">Roast curve — Chikmagalur Estate, Lot 04</p>
+  </div>
+</section>
+
+<!-- ===== SECTION 1: ORIGINS ===== -->
+<section class="origins" id="origins">
+  <div class="section__head">
+    <p class="eyebrow">Where it comes from</p>
+    <h2>Three farms. Three stories.</h2>
+    <p class="section__intro">Every bag carries the name of the farm, the altitude it grew at, and the
+      hands that picked it. No blends, no mystery sourcing — just coffee you can trace back to soil.</p>
+  </div>
+
+  <div class="origin-grid">
+    <article class="origin-card">
+      <div class="stamp">IN</div>
+      <h3>Chikmagalur, India</h3>
+      <p class="origin-meta">1,100m · Arabica · Washed</p>
+      <p>Grown in the shade of pepper vines on the Baba Budangiri hills, where coffee first
+        arrived in India four centuries ago. Notes of jaggery and orange peel.</p>
+    </article>
+
+    <article class="origin-card">
+      <div class="stamp">ET</div>
+      <h3>Yirgacheffe, Ethiopia</h3>
+      <p class="origin-meta">1,900m · Heirloom · Natural</p>
+      <p>Sun-dried on raised beds for eighteen days. Floral, winey, unmistakably itself —
+        the coffee most roasters chase but rarely find.</p>
+    </article>
+
+    <article class="origin-card">
+      <div class="stamp">CO</div>
+      <h3>Huila, Colombia</h3>
+      <p class="origin-meta">1,700m · Caturra · Honey</p>
+      <p>A cooperative of eleven smallholders on volcanic soil. Balanced body, notes of
+        stone fruit and dark caramel.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ===== SECTION 2: REVIEWS ===== -->
+<section class="reviews" id="reviews">
+  <div class="section__head">
+    <p class="eyebrow">What people are brewing</p>
+    <h2>Trusted by kitchens, not just critics.</h2>
+  </div>
+
+  <div class="review-grid">
+    <blockquote class="review-card">
+      <p>"The Chikmagalur lot tastes nothing like the filter coffee I grew up on — in the best
+        way. My mornings have a routine again."</p>
+      <footer>Ananya R. <span>· Subscriber since 2024</span></footer>
+    </blockquote>
+
+    <blockquote class="review-card">
+      <p>"I run a five-table café and switched entirely to Kombai. The roast dates on every bag
+        mean I never serve anything stale."</p>
+      <footer>Farhan K. <span>· Café Ombré, Chennai</span></footer>
+    </blockquote>
+
+    <blockquote class="review-card">
+      <p>"Cancelled two other subscriptions for this one. The Yirgacheffe alone was worth it."</p>
+      <footer>Priya S. <span>· Subscriber since 2023</span></footer>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ===== SUBSCRIBE / SECONDARY CTA ===== -->
+<section class="subscribe" id="subscribe">
+  <h2>Your first bag ships this Wednesday.</h2>
+  <p>Pick a roast, pick a rhythm — weekly, fortnightly, or monthly. Pause or cancel anytime.</p>
+  <a href="#top" class="btn btn--primary">Start your subscription</a>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <p class="footer__logo">Kombai</p>
+      <p>Small-batch, single-origin coffee.<br>Roasted in Coimbatore, shipped nationwide.</p>
+    </div>
+
+    <div class="footer__col">
+      <p class="footer__heading">Explore</p>
+      <a href="#origins">Origins</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#subscribe">Subscribe</a>
+    </div>
+
+    <div class="footer__col">
+      <p class="footer__heading">Contact</p>
+      <a href="mailto:hello@kombaicoffee.example">hello@kombaicoffee.example</a>
+      <a href="tel:+910000000000">+91 00000 00000</a>
+    </div>
+
+    <div class="footer__col">
+      <p class="footer__heading">Follow</p>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter / X</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+  <p class="footer__bottom">© 2026 Kombai Coffee Roasters. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
